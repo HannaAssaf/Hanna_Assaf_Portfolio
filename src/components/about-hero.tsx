@@ -16,8 +16,8 @@ export default function AboutHero() {
           <FadeUp key="hero-image" duration={0.6}>
             <DuotoneImage
               src={heroProfileImg}
-              width={100}
-              height={100}
+              width={250}
+              height={250}
               className="h-auto w-full px-0 xl:px-16"
               alt="hero image"
               lightColor="#E0FFFF"
@@ -36,19 +36,19 @@ export default function AboutHero() {
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              I turn vision into reality with code. Whether I&apos;m working on
-              a website or any digital product, I bring my commitment to design
-              excellence and user-centered thinking to every project I work on.
+              From concept to shipped code, I focus on design excellence and
+              real-world usability. I prioritise fast loads, clear UX, and
+              dependable architecture so teams can ship and iterate with
+              confidence.
             </p>
           </FadeUp>
           <FadeUp key="description-2" duration={0.6} delay={0.4}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              Explore my latest{" "}
+              See my latest{" "}
               <Link href="/projects" className="underline underline-offset-4">
                 <span className="text-accent">projects</span>
               </Link>{" "}
-              showcasing my expertise in Reactjs, Nextjs, Javascript, Typescript
-              and web development.
+              in React and Next.js with TypeScript / JavaScript, Node.js.
             </p>
           </FadeUp>
           <FadeRight
@@ -57,17 +57,17 @@ export default function AboutHero() {
             delay={0.8}
             className="mr-0 mt-8 flex items-center justify-center gap-4 lg:mr-8 lg:justify-end"
           >
-            <div className="relative flex w-12 gap-4 overflow-hidden rounded-md">
+            {/* <div className="relative flex w-12 gap-4 overflow-hidden rounded-md">
               <Image
                 className="-z-10 h-full w-full bg-cover bg-no-repeat"
-                alt="Indian flag"
-                src="https://flagcdn.com/in.svg"
-                width={15}
-                height={15}
+                alt="England flag"
+                src="https://flagcdn.com/16x12/gb-eng.png"
+                width={16}
+                height={12}
               />
-            </div>
+            </div> */}
             <span className="text-lg font-medium text-foreground">
-              Mumbai, India
+              London, England
             </span>
           </FadeRight>
         </AnimatePresence>
