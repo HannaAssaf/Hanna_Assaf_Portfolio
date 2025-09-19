@@ -1,6 +1,5 @@
 import { type ProjectCardProps } from "@/components/projects/project-card";
 import { type ProjectShowcaseListItem } from "@/components/projects/project-showcase-list";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
@@ -45,81 +44,80 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
-    name: "Json tree",
+    name: "Mythwalker",
     favicon: "/images/projects/logos/jsontree.ico",
     imageUrl: [
-      "/images/projects/jsontreeLight.webp",
-      "/images/projects/jsontreeDark.webp",
+      "/images/projects/mythwalker1.webp",
+      "/images/projects/mythwalker2.webp",
+      "/images/projects/mythwalker3.webp",
     ],
     description:
-      "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/jsontree",
-    liveWebsiteHref: "https://jsontree.vercel.app",
+      "Promotional landing page for the MythWalker geolocation RPG, built with HTML5, SCSS and vanilla JavaScript using BEM. Fully responsive multi-section layout (Characters, Reviews, How to Play, Gallery) with smooth navigation and interactive UI.",
+    sourceCodeHref: "https://github.com/HannaAssaf/mythwalker-landing",
+    liveWebsiteHref: "https://ulia012008.github.io/stp-8889-team/",
   },
   {
-    name: "Kanban app",
+    name: "NoteHub Auth",
     favicon: "/images/projects/logos/kanban.ico",
     imageUrl: [
-      "/images/projects/kanbanLight.webp",
-      "/images/projects/kanbanDark.webp",
-      "/images/projects/kanbanCardLight.webp",
+      "/images/projects/notehub2.webp",
+      "/images/projects/notehub3.webp",
+      "/images/projects/notehub4.webp",
+      "/images/projects/notehub1.webp",
     ],
     description:
-      "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/kanban",
-    liveWebsiteHref: "https://kannban-board.vercel.app",
+      "Notes app built with React and Next.js, styled with CSS Modules. Includes authentication, routing, and full note management—add, edit, search, and sort.",
+    sourceCodeHref: "https://github.com/HannaAssaf/09-auth",
+    liveWebsiteHref: "https://09-auth-ashy-three.vercel.app/",
   },
   {
-    name: "Many Games",
+    name: "Portfolio",
     favicon: "/images/projects/logos/manygames.ico",
     imageUrl: [
-      "/images/projects/manyGamesDark.webp",
-      "/images/projects/manyGamesLight.webp",
-      "/images/projects/manyGames2048.webp",
-      "/images/projects/manyGamesPuzzle.webp",
-      "/images/projects/manyGamesWordle.webp",
+      "/images/projects/portfolio1.webp",
+      "/images/projects/portfolio2.webp",
+      "/images/projects/portfolio3.webp",
     ],
     description:
-      "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
-    sourceCodeHref: "https://github.com/BUMBAIYA/ManyGames",
-    liveWebsiteHref: "https://manygames.vercel.app",
+      "A responsive front-end site that brings a polished portfolio-style landing page to life using semantic HTML, modern CSS, and pure JavaScript. The project includes interactive navigation, product showcases, and forms, with live validation and feedback to enhance user experience.",
+    sourceCodeHref: "https://github.com/HannaAssaf/Javascript-team-project",
+    liveWebsiteHref: "https://hannaassaf.github.io/Javascript-team-project/",
   },
   {
-    name: "My portfolio",
+    name: "MovieMatrix",
     favicon: "/favicon.ico",
-    imageUrl: [
-      "/images/projects/portfolioDark.webp",
-      "/images/projects/portfolioLight.webp",
-    ],
+    imageUrl: ["/images/projects/movie1.webp", "/images/projects/movie2.webp"],
     description:
-      "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/amitchauhan-v2",
-    liveWebsiteHref: siteMetadata.siteUrl,
+      "React + TypeScript throughout: mastered core hooks, data fetching with React Query, and form handling with Formik.",
+    sourceCodeHref: "https://github.com/HannaAssaf/04-react-query",
+    liveWebsiteHref: "https://04-react-query-vert-one.vercel.app/",
   },
   {
-    name: "Covid Tracker",
+    name: "Vyshyvanka",
     favicon: "/images/projects/logos/covidtracker.ico",
     imageUrl: [
-      "/images/projects/covidTracker.webp",
-      "/images/projects/covidTrackerMap.webp",
-      "/images/projects/covidTrackerTable.webp",
+      "/images/projects/vyshyvanka1.webp",
+      "/images/projects/vyshyvanka2.webp",
+      "/images/projects/vyshyvanka3.webp",
     ],
     description:
-      "Get latest covid related stats in a table where user can filter using country and cases. It also has a map which show every countries data for quick view. It uses an open source api (disease.sh). Made using Reactjs, Javascript and MUI",
-    sourceCodeHref: "https://github.com/BUMBAIYA/CovidTracker",
-    liveWebsiteHref: "https://bumbaiya.github.io/CovidTracker",
+      "Sleek, responsive e-commerce template for Ukrainian vyshyvanka, translated pixel-perfect from Figma using semantic HTML, modern CSS and vanilla JavaScript. I served as Scrum Master and built the Order section with accessible validation, inline errors and success messaging.",
+    sourceCodeHref: "https://github.com/HannaAssaf/HTML-CSS-team-project",
+    liveWebsiteHref: "https://hannaassaf.github.io/HTML-CSS-team-project/",
   },
   {
-    name: "Stock predictor",
+    name: "Simply Chocolate",
     favicon: "/images/projects/logos/stockpredictor.ico",
     imageUrl: [
-      "/images/projects/stockPredictor.webp",
-      "/images/projects/stockPredictorCandleChart.webp",
-      "/images/projects/stockPredictorCompareChart.webp",
-      "/images/projects/stockPredictorLineChart.webp",
+      "/images/projects/simply-chocolate1.webp",
+      "/images/projects/simply-chocolate2.webp",
+      "/images/projects/simply-chocolate3.webp",
+      "/images/projects/simply-chocolate4.webp",
+      "/images/projects/simply-chocolate5.webp",
     ],
     description:
-      "Get prediction of opening and closing price of stocks price. Frontend is made using Reactjs and backend is made using Flask and Machine learning model are trained using Tensorflow",
-    sourceCodeHref: "https://github.com/Rohrschachh/Stock-Market-Predictor",
+      "Responsive landing page for a fictitious chocolate brand with semantic, mobile-first layout, smooth navigation, product sections, testimonials, and a validated feedback form.",
+    sourceCodeHref: "https://github.com/HannaAssaf/Simply-Chocolate-site",
+    liveWebsiteHref: "https://hannaassaf.github.io/Simply-Chocolate-site/",
   },
 ];
