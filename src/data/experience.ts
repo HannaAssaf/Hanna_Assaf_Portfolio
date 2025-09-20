@@ -2,35 +2,36 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Software Developer",
+    title: "Self-Employed",
     organisation: {
-      name: "Skima",
-      href: "https://skima.ai/",
+      name: "Business Owner",
+      href: "https://...",
     },
-    date: "Oct 2023 - Present",
-    location: "Mumbai",
-    description: "Reactjs and Nextjs app development",
+    date: "May 2015 - January 2023",
+    location: "Ukraine, Kyiv",
+    description:
+      "Ran full-cycle online retail operations: managed own website (content & SEO optimisation), procurement, and sales.",
   },
   {
-    title: "Engineering Trainee",
+    title: "Deputy Store Manager",
     organisation: {
-      name: "Hexaware",
-      href: "https://hexaware.com/",
+      name: "ATB Corporation",
+      href: "https://www.atb.ua/en_US/",
     },
-    date: "July 2023 - Sep 2023",
-    location: "Remote",
+    date: "July 2013 - Sep 2023",
+    location: "Luhansk, Ukraine",
     description:
-      "Learned to work we monorepo and got to learn application architecture, scalling and build tooling to improve CI/CD of micro services.",
+      "Oversaw store operations and staff performance. Implemented procedures to optimise customer experience and sales.",
   },
   {
-    title: "Frontend Developer Intern",
+    title: "Production Area Supervisor",
     organisation: {
-      name: "Master Infotech",
-      href: "https://masterinfotech.com/",
+      name: "Etalon R&D Enterprise",
+      href: "https://....",
     },
-    date: "Winter - 2022",
-    location: "Remote",
+    date: "October 2012 - May 2013",
+    location: "Donetsk, Ukraine",
     description:
-      "Worked on a team responsible for developing new features and updating old codebases to latest technologies. Learned alot about web development and CI/CD development cycle.",
+      "Supervised manufacturing processes, ensured adherence to quality standards, and coordinated production teams.",
   },
 ];

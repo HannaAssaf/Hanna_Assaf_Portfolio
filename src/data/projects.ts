@@ -45,7 +45,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Mythwalker",
-    favicon: "/images/projects/logos/jsontree.ico",
+    favicon: "/favicon.ico",
     imageUrl: [
       "/images/projects/mythwalker1.webp",
       "/images/projects/mythwalker2.webp",
@@ -59,7 +59,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "NoteHub Auth",
-    favicon: "/images/projects/logos/kanban.ico",
+    favicon: "/favicon.ico",
     imageUrl: [
       "/images/projects/notehub2.webp",
       "/images/projects/notehub3.webp",
@@ -73,7 +73,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "Portfolio",
-    favicon: "/images/projects/logos/manygames.ico",
+    favicon: "/favicon.ico",
     imageUrl: [
       "/images/projects/portfolio1.webp",
       "/images/projects/portfolio2.webp",
@@ -95,7 +95,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "Vyshyvanka",
-    favicon: "/images/projects/logos/covidtracker.ico",
+    favicon: "/favicon.ico",
     imageUrl: [
       "/images/projects/vyshyvanka1.webp",
       "/images/projects/vyshyvanka2.webp",
@@ -108,7 +108,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "Simply Chocolate",
-    favicon: "/images/projects/logos/stockpredictor.ico",
+    favicon: "/favicon.ico",
     imageUrl: [
       "/images/projects/simply-chocolate1.webp",
       "/images/projects/simply-chocolate2.webp",
