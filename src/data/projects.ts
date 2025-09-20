@@ -4,40 +4,40 @@ import { type ProjectShowcaseListItem } from "@/components/projects/project-show
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
-    title: "Json Tree",
+    title: "NoteHub Auth",
     href: "/projects",
-    tags: ["Nextjs", "Tailwindcss", "Monaco Editor", "Vercel"],
+    tags: [
+      "React",
+      "Nextjs",
+      "TypeScript",
+      // "React-router-dom",
+      "module CSS",
+      "Zustand",
+      "Vercel",
+    ],
     image: {
-      LIGHT: "/images/projects/jsontreeLight.webp",
-      DARK: "/images/projects/jsontreeDark.webp",
+      LIGHT: "/images/projects/notehub2.webp",
+      DARK: "/images/projects/notehub4.webp",
     },
   },
   {
     index: 1,
-    title: "Many Games",
+    title: "Portfolio",
     href: "/projects",
-    tags: [
-      "Reactjs",
-      "Tailwindcss",
-      "Scss",
-      "Vite",
-      "React-router-dom",
-      "Redux",
-      "Vercel",
-    ],
+    tags: ["JavaScript", "HTML", "CSS", "Vite", "Vercel"],
     image: {
-      LIGHT: "/images/projects/manyGamesLight.webp",
-      DARK: "/images/projects/manyGamesDark.webp",
+      LIGHT: "/images/projects/portfolio1.webp",
+      DARK: "/images/projects/portfolio2.webp",
     },
   },
   {
     index: 2,
-    title: "Kanban",
+    title: "Mythwalker",
     href: "/projects",
-    tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Zustand", "React DND"],
+    tags: ["JavaScript", "HTML", "Vite", "Scss", "Vercel"],
     image: {
-      LIGHT: "/images/projects/kanbanLight.webp",
-      DARK: "/images/projects/kanbanDark.webp",
+      LIGHT: "/images/projects/mythwalker1.webp",
+      DARK: "/images/projects/mythwalker2.webp",
     },
   },
 ];
@@ -50,6 +50,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "/images/projects/mythwalker1.webp",
       "/images/projects/mythwalker2.webp",
       "/images/projects/mythwalker3.webp",
+      "/images/projects/mythwalker4.webp",
     ],
     description:
       "Promotional landing page for the MythWalker geolocation RPG, built with HTML5, SCSS and vanilla JavaScript using BEM. Fully responsive multi-section layout (Characters, Reviews, How to Play, Gallery) with smooth navigation and interactive UI.",
