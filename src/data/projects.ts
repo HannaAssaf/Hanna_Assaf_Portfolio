@@ -16,8 +16,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
       "Vercel",
     ],
     image: {
-      LIGHT: "/public/images/projects/notehub2.webp",
-      DARK: "/public/images/projects/notehub4.webp",
+      LIGHT: "/images/projects/notehub2.webp",
+      DARK: "/images/projects/notehub4.webp",
     },
   },
   {
@@ -26,8 +26,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["JavaScript", "HTML", "CSS", "Vite", "Vercel"],
     image: {
-      LIGHT: "/public/images/projects/portfolio1.webp",
-      DARK: "/public/images/projects/portfolio2.webp",
+      LIGHT: "/images/projects/portfolio1.webp",
+      DARK: "/images/projects/portfolio2.webp",
     },
   },
   {
@@ -36,8 +36,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["JavaScript", "HTML", "Vite", "Scss", "Vercel"],
     image: {
-      LIGHT: "/public/images/projects/mythwalker1.webp",
-      DARK: "/public/images/projects/mythwalker2.webp",
+      LIGHT: "/images/projects/mythwalker1.webp",
+      DARK: "/images/projects/mythwalker2.webp",
     },
   },
 ];
@@ -47,10 +47,10 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     name: "Mythwalker",
     favicon: "/favicon.ico",
     imageUrl: [
-      "/public/images/projects/mythwalker1.webp",
-      "/public/images/projects/mythwalker2.webp",
-      "/public/images/projects/mythwalker3.webp",
-      "/public/images/projects/mythwalker4.webp",
+      "/images/projects/mythwalker1.webp",
+      "/images/projects/mythwalker2.webp",
+      "/images/projects/mythwalker3.webp",
+      "/images/projects/mythwalker4.webp",
     ],
     description:
       "Promotional landing page for the MythWalker geolocation RPG, built with HTML5, SCSS and vanilla JavaScript using BEM. Fully responsive multi-section layout (Characters, Reviews, How to Play, Gallery) with smooth navigation and interactive UI.",
@@ -61,10 +61,10 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     name: "NoteHub Auth",
     favicon: "/favicon.ico",
     imageUrl: [
-      "/public/images/projects/notehub2.webp",
-      "/public/images/projects/notehub3.webp",
-      "/public/images/projects/notehub4.webp",
-      "/public/images/projects/notehub1.webp",
+      "/images/projects/notehub2.webp",
+      "/images/projects/notehub3.webp",
+      "/images/projects/notehub4.webp",
+      "/images/projects/notehub1.webp",
     ],
     description:
       "Notes app built with Next.js, styled with CSS Modules. Includes authentication, routing, and full note management—add, edit, search, and sort.",
@@ -75,9 +75,9 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     name: "Portfolio",
     favicon: "/favicon.ico",
     imageUrl: [
-      "/public/images/projects/portfolio1.webp",
-      "/public/images/projects/portfolio2.webp",
-      "/public/images/projects/portfolio3.webp",
+      "/images/projects/portfolio1.webp",
+      "/images/projects/portfolio2.webp",
+      "/images/projects/portfolio3.webp",
     ],
     description:
       "A responsive front-end site that brings a polished portfolio-style landing page to life using semantic HTML, modern CSS, and pure JavaScript. The project includes interactive navigation, product showcases, and forms, with live validation and feedback to enhance user experience.",
@@ -97,9 +97,9 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     name: "Vyshyvanka",
     favicon: "/favicon.ico",
     imageUrl: [
-      "/public/images/projects/vyshyvanka1.webp",
-      "/public/images/projects/vyshyvanka2.webp",
-      "/public/images/projects/vyshyvanka3.webp",
+      "/images/projects/vyshyvanka1.webp",
+      "/images/projects/vyshyvanka2.webp",
+      "/images/projects/vyshyvanka3.webp",
     ],
     description:
       "Sleek, responsive e-commerce template for Ukrainian vyshyvanka, translated pixel-perfect from Figma using semantic HTML, modern CSS and vanilla JavaScript. I served as Scrum Master and built the Order section with accessible validation, inline errors and success messaging.",
@@ -110,11 +110,11 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     name: "Simply Chocolate",
     favicon: "/favicon.ico",
     imageUrl: [
-      "/public/images/projects/simply-chocolate1.webp",
-      "/public/images/projects/simply-chocolate2.webp",
-      "/public/images/projects/simply-chocolate3.webp",
-      "/public/images/projects/simply-chocolate4.webp",
-      "/public/images/projects/simply-chocolate5.webp",
+      "/images/projects/simply-chocolate1.webp",
+      "/images/projects/simply-chocolate2.webp",
+      "/images/projects/simply-chocolate3.webp",
+      "/images/projects/simply-chocolate4.webp",
+      "/images/projects/simply-chocolate5.webp",
     ],
     description:
       "Responsive landing page for a fictitious chocolate brand with semantic, mobile-first layout, smooth navigation, product sections, testimonials, and a validated feedback form.",
