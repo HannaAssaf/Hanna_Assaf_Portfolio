@@ -27,7 +27,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     title: "Production Area Supervisor",
     organisation: {
       name: "Etalon R&D Enterprise",
-      href: "https://www.hanna-assaf.dev/about",
+      href: "https://linkedin.com/in/hanna-assaf",
     },
     date: "October 2012 - May 2013",
     location: "Donetsk, Ukraine",
