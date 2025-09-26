@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "next start",
+    "start": "PORT=3050 next start",
     "dev": "next dev",
     "build": "next build",
     "postbuild": "npm run sitemap",
