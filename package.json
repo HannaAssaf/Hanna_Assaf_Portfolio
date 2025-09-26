@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "start": "node ./index.js",
     "dev": "next dev",
     "build": "next build",
     "postbuild": "npm run sitemap",
-    "start": "next start",
     "lint": "next lint",
     "sitemap": "cross-env NODE_OPTIONS='--experimental-json-modules' node ./src/scripts/generateSitemap.mjs",
     "analyze": "cross-env ANALYZE=true next build",

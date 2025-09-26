@@ -5,7 +5,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     title: "Self-Employed",
     organisation: {
       name: "Business Owner",
-      href: "https://...",
+      href: "https://minicomp.com.ua/",
     },
     date: "May 2015 - January 2023",
     location: "Ukraine, Kyiv",
@@ -27,7 +27,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     title: "Production Area Supervisor",
     organisation: {
       name: "Etalon R&D Enterprise",
-      href: "https://....",
+      href: "https://www.hanna-assaf.dev/about",
     },
     date: "October 2012 - May 2013",
     location: "Donetsk, Ukraine",
