@@ -18,17 +18,17 @@ export const sendMail = async function (
   const transporter = createTransport({
     host,
     port,
-    secure: port === 465, // true для 465 (TLS), false для 587 (STARTTLS)
+    secure: port === 465,
     auth: { user, pass },
   });
 
-  const from = `"Portfolio" <${user}>`; // має збігатися з користувачем SMTP
+  const from = `"Portfolio" <${user}>`;
   const to = process.env.TO_EMAIL || user;
 
   const mailOptions = {
     from,
-    to, // Лист прийде в твою скриньку (може бути Gmail)
-    replyTo: email === "SELF" ? undefined : email, // щоб відповідь ішла відвідувачу форми
+    to,
+    replyTo: email === "SELF" ? undefined : email,
     subject: `Portfolio: [${subject}]`,
     text: `${name}: <${email}>\n${message}`,
   };
