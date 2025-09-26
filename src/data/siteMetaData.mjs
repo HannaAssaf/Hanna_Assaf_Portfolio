@@ -17,5 +17,5 @@ export const siteMetadata = {
   twitter: "https://twitter.com/amitcha2638",
   linkedin: "https://www.linkedin.com/in/hanna-assaf/",
   locale: "en-GB",
-  googleSiteVerification: "_YJ",
+  googleSiteVerification: "X1YynEGYU3E36iz9lFNJKvoYCen-JdrC1PDz5pPc9",
 };
