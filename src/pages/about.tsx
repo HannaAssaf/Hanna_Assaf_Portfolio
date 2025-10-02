@@ -18,17 +18,8 @@ export default function About() {
           title: "Learn About Hanna Assaf - Software Developer",
           description:
             "Dive into the story of Hanna Assaf, a Software Developer. Uncover the experiences, skills, and passion that fuel a commitment to delivering exceptional web solutions.",
-          images: [
-            {
-              url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Hanna Assaf - Portfolio Image",
-            },
-          ],
           siteName: siteMetadata.siteName,
           type: "website",
-        }}
-        twitter={{
-          cardType: "summary_large_image",
         }}
         additionalMetaTags={[
           {
