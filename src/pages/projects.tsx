@@ -16,17 +16,8 @@ export default function Projects() {
           title: "Discover Projects by Hanna Assaf - Software Developer",
           description:
             "Explore a showcase of projects crafted by Hanna Assaf, a Software Developer. Witness the fusion of creativity and technology in web development.",
-          images: [
-            {
-              url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Hanna Assaf - Portfolio Image",
-            },
-          ],
           siteName: siteMetadata.siteName,
           type: "website",
-        }}
-        twitter={{
-          cardType: "summary_large_image",
         }}
         additionalMetaTags={[
           {
