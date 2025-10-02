@@ -21,17 +21,8 @@ export default function Home() {
           title: "Hanna Assaf - Software Developer",
           description:
             "Dive into the world of web development with Hanna Assaf. Discover a Software Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
-          images: [
-            {
-              url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Hanna Assaf - Portfolio Image",
-            },
-          ],
           siteName: siteMetadata.siteName,
           type: "website",
-        }}
-        twitter={{
-          cardType: "summary_large_image",
         }}
         additionalMetaTags={[
           {
